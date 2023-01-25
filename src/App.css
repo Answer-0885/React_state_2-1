@@ -1,0 +1,40 @@
+.app-link-select{
+  color: #eef0f7;
+  background-color: #535354;
+}
+
+.app-link {
+  color: #535354;
+  background-color: #eef0f7;
+}
+
+.container {
+  position: relative;
+  max-width: 1117px;
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+
+}
+
+.containerCards {
+  column-count: 3;
+  column-gap: 10px;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+.toolbar {
+  margin-top: 10px;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: 30px;
+}
+
+.toolbar > * {
+  border-radius: 5px;
+}
